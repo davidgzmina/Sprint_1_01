@@ -2,6 +2,9 @@
     margin:0px;
     padding: 0px;
 }
+
+
+
 body{
     background-color: aliceblue;
     font-family:Arial, Helvetica, sans-serif;
@@ -124,5 +127,62 @@ footer{
     padding: 10px;
     margin: 10px;
 }
+
+/* Medium devices */
+@media only screen and (max-width: 1199px) {
+    .logo, .social, .nav {
+        display: block;
+        width: auto;
+    }
+    main,aside{
+        display: block;
+        width: auto;
+    }
+    .publicidad{
+        display: block;
+        width: auto;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        height: auto;
+    }
+    #content{
+        width: auto;
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+
+    .article{
+        width: auto;
+        display: block;
+        /*margin: 10px;*/
+     
+    }
+    #bloc1,#bloc2{
+        display: block;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    #content{
+        padding: 10px;
+        margin: 10px;
+    }
+    .publicidad{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
 
 
